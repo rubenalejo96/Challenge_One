@@ -1,0 +1,165 @@
+body{
+  background-color: #075412;
+  background-image: url("imagenes/letras\ hacker.jpg");
+  background-size: 100%;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-left: 12%;
+  padding-top: 5%;
+  font-size: 4vw;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  
+}
+
+.aluraLogo {
+width: 3%;
+margin-left: 1%;
+}
+
+main {
+  height: 96vh;
+  width: 100vw;
+}
+
+#divTexto{
+  position: absolute;
+  width: 50%;
+  height: 65%;
+  left: 10%;
+  top: 25%;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#texto{
+  border-radius: 15px;
+  border:none;
+  background-color: #27c13e;
+  font-size: 3vh;
+  color: #ffffff;
+  width: 95%;
+  height: 80%;
+  padding-right: 0.3vw;
+  resize: none;
+}
+
+p{
+  position: absolute;
+  color: white;
+  top:81%;
+  left: 12%;
+  font-size: 1vw;
+}
+
+#encriptar {
+  margin-right: 0.2vw;
+}
+
+#encriptar, #desencriptar {
+  margin-top: 5%;
+  padding: 0%;
+  width: 48%;
+  height: 10%;
+  font-size: 2vh;
+  color: white;
+  background-color: #075412;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  
+}
+
+#divResultado{
+  background-color: #27c13e;
+  text-align: center;
+  position: absolute;
+  width: 25%;
+  height: 85%;
+  left: 68%;
+  top: 5%;
+  padding: 1%;
+  border-radius: 25px;
+}
+
+#imagen{
+  position: absolute;
+  top: 12%;
+  left: 71.5%;
+  width: 20%;
+  height: 60%;
+}
+
+#img{
+  width: 100%;
+  height: 100%;
+}
+
+
+#resultado{
+  border-radius: 15px;
+  border:none;
+  background-color: transparent;
+  font-size: 3vh;
+  width: 90%;
+  height: 85%;
+  margin: 4%;
+  margin-bottom: 0;
+  color:#013108;
+  resize: none;
+}
+
+#copiar{
+  margin-top: 5.5%;
+  width: 98%;
+  height: 7.5%; 
+  font-size: 2vh;
+  color: white;
+  background-color: #075412;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+#encriptar:hover, #desencriptar:hover, #copiar:hover {
+  background-color: #27c13e;
+}
+
+button img {
+  margin-left: 0.5vw;
+  height: 4vh ;
+}
+
+footer{
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  height: 5%;
+  background-color: rgb(50, 81, 50);
+  text-align: center;
+  font-size: 0.8vw;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+} 
+
+footer h2{
+  margin: 1%;
+}
+
+.texto:focus, .resultado:focus {
+  outline: none;
+
+}
